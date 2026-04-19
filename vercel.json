@@ -1,5 +1,9 @@
 {
+  "version": 2,
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.py" }
+    {
+      "source": "/api/proxy-m3u8",
+      "destination": "/api/index.py"
+    }
   ]
 }
